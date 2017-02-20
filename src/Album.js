@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function Album(props) {
+function Album(props) {
   return (
     <div>
       <h3><a href={props.url}>{props.title}</a></h3>
@@ -8,3 +8,5 @@ export function Album(props) {
     </div>
   )
 }
+
+export default Album

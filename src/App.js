@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import axios from 'axios';
-import { Album } from './Album';
+import Album from './Album';
 
 class App extends Component {
   constructor (props) {
@@ -27,7 +27,7 @@ class App extends Component {
         })
       });
   }
-  // Decided on an endless scroll as rendering 10000 elements at once added performance issues
+  // Utilised endless scroll as rendering 10000 elements at once added performance issues
   scrollUpdate(e) {
       if(document.documentElement.scrollHeight - e.currentTarget.scrollY < 1000) {
         this.setState({
