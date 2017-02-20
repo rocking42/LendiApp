@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Small react app for Lendi.
 
-To start application
+To start application.
 ```
 $ npm run start
 ```
